@@ -42,7 +42,7 @@ header h1 {
     overflow: hidden;
     position: relative;
     color: white;
-    height: auto;
+    
 }
 
 .menu #myLinks {
@@ -53,9 +53,7 @@ header h1 {
     color: white;
     padding: 10px 16px;
     text-decoration: none;
-    display: block;
-    height: 40px; 
-    
+    display: block;    
 }
 
 

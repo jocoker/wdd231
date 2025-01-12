@@ -14,7 +14,6 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    
 }
 
 header {
@@ -42,8 +41,7 @@ header h1 {
 
 .menu {
     background-color: black;
-    display: flex;
-    
+    display: flex;    
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -52,7 +50,6 @@ header h1 {
 .menu a {
     color: white;
     text-decoration: none;
-    
 }
 
 .menu a:hover {
