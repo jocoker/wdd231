@@ -128,14 +128,14 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    
+    border-top: 2px solid lightgray;
 }
 
 .filter-buttons {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    
+    padding-bottom: 10px;
     
 }
 
@@ -153,6 +153,7 @@ h2 {
 
 .class1,.class2,.class3,.class5 {
     background-color: #66301d;
+    
 }
 
 .class4, .class6 {
