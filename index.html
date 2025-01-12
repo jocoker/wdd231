@@ -3,25 +3,70 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jordan Coker">
+        <meta name="description" content="WDD 231 - Web Frontend Development 1 - Jordan Coker">
         <meta name="author" content="Jordan Coker">
-        <link rel="stylesheet" href="initialfolder/styles/base.css">
-        <script src="initialfolder/scripts/getdates.js" defer></script>
+        <link rel="stylesheet" href="styles/index.css">
+        <script src="scripts/index.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <title>WDD 231 - Web Frontend Development 1 - Jordan Coker</title>
     </head>
+
 <body>
     <header>
-        <h1>WDD 231 - Web Frontend Development 1 - Jordan Coker</h1>
+        <img src="images/profile-photo.jpg" alt="Profile Picture">
+        <h1>Jordan G. Coker</h1>
 
-        <nav>
+        <nav class="menu">
             <a href="index.html">Home</a>
             <a href="">Chamber</a>
             <a href="https://jocoker.github.io/wdd231/">GitHub Profile</a>
             <a href="https://www.linkedin.com/in/cokerjordan/">LinkedIn</a>
         </nav>
+    </header>
+
+    <main class="card">
+        <section class="course-work">
+            <h2>Course Work</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp">W3 Schools</a></li>
+                    <li><a href="https://css-tricks.com/guides/">CSS Guides</a></li>
+                    <li><a href="https://www.codecademy.com/catalog/language/javascript">JavaScript on Codecademy</a></li>
+                </ul>
+        </section>
+
+        <section class="about-me">
+            <h2>Michigan, USA</h2>
+            <img src="images/Flag-of-Michigan.png" alt="Michigan Flag">
+            <p>The Michigan state flag.</p>
+        </section>
+
+        <section class="classes">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <p>All</p>
+                <p>CSE</p>
+                <p>WDD</p>
+            </div>
+            <p>CSE 110</p>
+            <p>WDD 130</p>
+            <p>CSE 111</p>
+            <p>CSE 210</p>
+            <p>WDD 131</p>
+            <p>WDD 231</p>
+        </section>    
+
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    
+
+        
     
 </body>
 </html>
