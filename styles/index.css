@@ -159,6 +159,12 @@ h2 {
     color: black;
 }
 
+.icon {
+    display: none !important;
+}
 
+#myLinks {
+    display: block !important;
+}
 
 }

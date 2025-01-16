@@ -18,10 +18,3 @@ function myFunction() {
     }
 }
 
-const navButton = document.querySelector('.nav-button');
-const navList = document.querySelector('.myLinks');
-navButton.addEventListener('click', () => {
-    navButton.classList.toggle('close');
-    navList.classList.toggle('show');
-    logo.classList.toggle('hidden');
-  }, false);
