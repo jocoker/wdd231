@@ -116,49 +116,6 @@ h2 {
     box-shadow: 5px 5px 10px grey, -5px -5px 10px grey;
 }
 
-.classes {
-    grid-column: 1/3;
-    border-radius: 10px;
-    
-    box-shadow: 5px 5px 10px grey, -5px -5px 10px grey;
-}
-
-.class-buttons{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    border-top: 2px solid lightgray;
-}
-
-.filter-buttons {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    padding-bottom: 10px;
-    
-}
-
-.filter1,.filter2,.filter3,.class1,.class2,.class3,.class4,.class5,.class6 {
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    border: 2px solid black;
-    
-}
-.filter1,.filter2,.filter3 {
-    background-color: black;
-    color: white
-}
-
-.class1,.class2,.class3,.class5 {
-    background-color: #66301d;
-    
-}
-
-.class4, .class6 {
-    color: black;
-}
-
 .icon {
     display: none !important;
 }
@@ -166,5 +123,45 @@ h2 {
 #myLinks {
     display: block !important;
 }
+
+
+
+
+
+.certificate {
+    grid-column: 1/3;
+    display: grid;
+    
+  }
+  
+  .buttons {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  #courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+    grid-gap: 1em;
+  }
+  
+  .completed {
+    background-color: #154c72;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .not-completed {
+    background-color: #d3d3d3;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  
 
 }
