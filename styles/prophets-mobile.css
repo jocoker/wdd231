@@ -36,7 +36,7 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
 	grid-gap: 1rem;
-    max-width: 100%;
+    max-width: 100px;
 }
 
 section {
