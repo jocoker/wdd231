@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development 1 - Jordan Coker">
+    <meta name="author" content="Jordan Coker">
+    <meta property="og:title" content="Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://masonchamber.org/wp-content/uploads/2023/11/image-1.jpg" />
+    <meta property="og:url" content="https://jocoker.github.io/wdd231/" />
+    <meta property="og:description" content="Mason Chamber of Commerce" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/favicon-bulldog.ico">
+    <link rel="stylesheet" href="styles/chamber-mobile.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <script src="scripts/chamber.js" defer></script>
+    <title>Mason Chamber of Commerce</title>
 </head>
 <body>
+    <header>
+        <img src="images/mason-bulldog.png" alt="Mason" width="70" height="60">
+        <div class="title">
+            <h1>Mason</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <button id="hamburger"></button>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="directory.html">Home</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html">Join</a></li>
+            <li><a href="directory.html">Discover</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <h1>Directory</h1>
+        <div class="buttons">
+            <button id="gridButton" class="active">Grid</button>
+            <button id="listButton" class="">List</button>
+        </div>
+
+        <div id="members" class="grid">
+            <!--JS part-->
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
