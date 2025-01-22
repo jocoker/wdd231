@@ -148,4 +148,19 @@ div.list img:first-child {
     display: none;
 }
 
+/********************FOOTER********************/
+
+footer {
+    background-color: #256bc1;
+    color: white;
+}
+footer section {
+    padding: 2rem 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: .25rem;
+}
+
 }

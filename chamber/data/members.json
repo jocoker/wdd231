@@ -6,7 +6,7 @@
             "phone": "517-111-1111",
             "url": "https://www.facebook.com/Amandasgrooming18",
             "logopath": "amandas-grooming.png",
-            "level": 3
+            "level": 2
         },
         {
             "name": "Adado Auto Sales",
@@ -14,7 +14,7 @@
             "phone": "517-222-2222",
             "url": "https://www.autobuyersmarket.com/",
             "logopath": "adado.png",
-            "level": 1
+            "level": 3
         },
         {
             "name": "Awaken: A Haunted Attraction",
@@ -30,7 +30,7 @@
             "phone": "517-444-4444",
             "url": "https://tamaraglenn.com/",
             "logopath": "be-love.png",
-            "level": 3
+            "level": 1
         },
         {
             "name": "Besco Water Treatment",
@@ -46,7 +46,7 @@
             "phone": "517-666-6666",
             "url": "https://www.masonfamilydentistry.com/",
             "logopath": "dentist.png",
-            "level": 1
+            "level": 3
         },
         {
             "name": "Dirty Laundry Lounge",
