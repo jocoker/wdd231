@@ -168,8 +168,9 @@ footer {
     color: white;
 }
 footer section {
-    padding: 2rem 10px;
     text-align: center;
+    padding: 1rem;
+    
 }
 
 footer p {
