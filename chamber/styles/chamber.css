@@ -23,4 +23,12 @@ nav ul li a {
 nav ul li:last-child a {
     border:none;
 }
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 }

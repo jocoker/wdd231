@@ -81,7 +81,95 @@ nav.show {
     grid-template-rows: 1fr;
 }
 
-nav ul {overflow: hidden;}
+nav ul {
+    overflow: hidden;
+}
+
+/************ Hero Image *************/
+.hero {
+    max-width: 1200px;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero a{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #0c2452;
+    text-decoration: none;
+}
+
+/********************Events and Weather********************/
+section.eventsWeather {
+    margin: .5rem 10px;
+}
+
+section.eventsWeather div {
+    background-color: #eee;
+}
+
+section.eventsWeather h2{
+    margin: 0;
+    background-color: #256bc1;
+    color: white;
+    padding: 5px 10px;
+}
+
+div.events p{
+    margin: .75rem 10px
+}
+
+div.weather div{
+    display: flex;
+}
+
+div.weather p {
+    margin: .2rem 0;
+    font-size: .75rem;
+    color: #008b94;
+}
+
+#forecast p {
+    margin: .5rem 10px;
+    color: #008b94;
+}
+
+/********************HOME PAGE SPOTLIGHTS********************/
+#spotlight div {
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+#spotlight h2 {
+    background-color: #f27d80;
+    margin: 0;
+    padding: .3rem 0;
+    font-size: 1.1rem;
+}
+#spotlight p {
+    margin: 0;
+    padding: .5rem;
+}
+#spotlight img {
+    width: 100px;
+    height: auto;
+}
+
+
 
 /********************DIRECTORY********************/
 div.buttons {
