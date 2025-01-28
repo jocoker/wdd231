@@ -127,7 +127,8 @@ section.eventsWeather h2{
 }
 
 div.events p{
-    margin: .75rem 10px
+    margin: .75rem 10px;
+    color: #0c2452;
 }
 
 div.weather div{
@@ -137,12 +138,13 @@ div.weather div{
 div.weather p {
     margin: .2rem 0;
     font-size: .75rem;
-    color: #008b94;
+    color: #0c2452;
+    text-transform: capitalize;
 }
 
 #forecast p {
     margin: .5rem 10px;
-    color: #008b94;
+    color: #0c2452;
 }
 
 /********************HOME PAGE SPOTLIGHTS********************/

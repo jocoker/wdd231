@@ -1,7 +1,22 @@
 @media only screen and (min-width:769px){
+/***************** PAGE LAYOUT *****************/
+header,
+main,
+nav,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+/********************HAMBURGER********************/
+
 button#hamburger {
     display:none;
 }
+
+/********************NAVIGATION********************/
 
 nav {
     grid-template-rows: 1fr;
@@ -24,11 +39,18 @@ nav ul li:last-child a {
     border:none;
 }
 
-    header,
-    main,
-    nav,
-    footer {
-        max-width: 900px;
-        margin: 0 auto;
-    }
+/************ Events and Weather *************/
+section.eventsWeather {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+/************ HOME SPOTLIGHTS *************/
+#spotlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
 }
