@@ -47,10 +47,18 @@ section.eventsWeather {
 }
 
 /************ HOME SPOTLIGHTS *************/
-#spotlights {
+#spotlight {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 }
