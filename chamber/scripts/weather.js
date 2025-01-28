@@ -57,11 +57,11 @@ function displayResults(data) {
     report.appendChild(city)
 
     const temp=document.createElement('p')
-    temp.innerHTML = `${data.list[0].main.temp}&deg;F`
+    temp.innerHTML = `Temperature: ${data.list[0].main.temp}&deg;F`
     report.appendChild(temp)
  
     const description=document.createElement('p')
-    description.innerHTML = data.list[0].weather[0].description;
+    description.innerHTML = `Conditions: ${data.list[0].weather[0].description}`;
     report.appendChild(description)
 
     const high=document.createElement('p')
