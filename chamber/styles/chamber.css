@@ -53,6 +53,16 @@ section.eventsWeather {
     column-gap: 10px;
 }
 
+/************ JOIN page *************/
+.sbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.form {
+    margin: auto;
+}
+
 
 
 

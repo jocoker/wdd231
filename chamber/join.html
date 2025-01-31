@@ -21,9 +21,8 @@
     <link rel="stylesheet" href="styles/chamber-mobile.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
     <script src="scripts/signature.js" defer></script>
+    <script src="scripts/levels.js" defer></script>
     <title>Mason Chamber of Commerce</title>
 </head>
 <body>
@@ -46,7 +45,59 @@
 
 
     <main>
-        
+        <h1>Join</h1>
+        <div class="sbs">
+        <section class="memberlvl">
+            <h2>Membership Levels</h2>
+            <aside>
+                <h3>Non-Profit Member Level</h3>
+                <button id="ml1Btn">Learn More</button>
+            </aside>
+            <aside>
+                <h3>Bronze Member Level</h3>
+                <button id="ml2Btn">Learn More</button>
+            </aside>
+            <aside>
+                <h3>Silver Member Level</h3>
+                <button id="ml3Btn">Learn More</button>
+            </aside>
+            <aside>
+                <h3>Gold Member Level</h3>
+                <button id="ml4Btn">Learn More</button>
+            </aside>
+            <dialog id="mlModal">
+                <div>
+                <h4 id="mltitle"></h4>
+                <button id="closeModal">X</button>
+                </div>
+                <span id="mldetails"></span>
+            </dialog>
+        </section>
+
+        <section class="form">
+            <h2>Membership Application Form</h2>
+            <form method="GET" action="thankyou.html" class="designOne">
+                <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+                <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+                <label>Title <input type="text" name="title" autocomplete="organization-title" title="Your Title" pattern="[a-zA-Z0-9 -]{7,}"></label>
+                <label>Email <input type="email" name="email" required placeholder="my.email@gmail.com"  title="Your Email" autocomplete="email"></label>
+                <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="phone number with dashes" placeholder="123-456-7890" ></label>
+                <label>Organization <input type="text" name="organization" required  title="organization" autocomplete="organization"></label>
+                <label>Business Decription<textarea name="description"></textarea></label>
+            
+            
+                <h3>Membership Level</h3>
+                <label><input type="radio" name="level" value="Non Profit Membership"> Non Profit Membership</label>
+                <label><input type="radio" name="level" value="Bronze Membership" checked> Bronze Membership</label>
+                <label><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
+                <label><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
+            
+            
+                <input type="submit" value="Send Application">
+                <input type="hidden" name="hiddendate" id="today">
+            </form>
+        </section>
+        </div>                
     </main>
 
 
