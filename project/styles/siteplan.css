@@ -1,0 +1,27 @@
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  * {
+    font-family: "Roboto", serif;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+  }
+
+  h2 {
+    background-color: 	#4ddbff;
+    
+  }
+
+  header,
+  footer{
+    background-color: #bb99ff;
+    
+  }
+
+  li {
+    list-style: none;
+  }
