@@ -15,6 +15,7 @@ function displayItems(places) {
     const thephoto = document.createElement('img')
     thephoto.src = `${x.photo_url}`
     thephoto.alt = x.name
+    thephoto.loading = "lazy"
     thecard.appendChild(thephoto)
     //build the title element
     const thetitle = document.createElement('h2')
