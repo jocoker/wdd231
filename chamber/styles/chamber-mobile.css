@@ -397,6 +397,7 @@ border-radius: 6px;
     border-radius: 8px;
     overflow: hidden;
     
+    
     display: grid;
     gap:10px;
     grid-template-areas: 
@@ -410,6 +411,7 @@ border-radius: 6px;
   #allplaces div h2 {
     margin: 1rem 0px;
     grid-area: name;
+    text-align: center;
   }
   #allplaces div img {
     width: 100%;
@@ -425,12 +427,17 @@ border-radius: 6px;
   }
   #allplaces div button {
     margin: 1rem 0px;
-    background-color: #d4295f;
+    background-color: #256bc1;
     color: #eee;
     border:none;
     border-radius: 30px;
     padding: 1rem;
     grid-area: button;
+  }
+
+  #timeBetween {
+    font-size: larger;
+    text-align: center;
   }
 
 

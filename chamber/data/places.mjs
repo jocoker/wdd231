@@ -12,7 +12,7 @@ export const places = [
         "address": "207 Mason St, Mason, MI 48854",
         "cost": "Free",
         "description": "The best local antiques market you will find.",
-        "photo_url": "images/mason_antiques_market.webp"
+        "photo_url": "images/mason_antiques_market_resize.webp"
     },
 
     {
@@ -20,7 +20,7 @@ export const places = [
         "address": "440 S Jefferson St, Mason, MI 48854",
         "cost": "Price varies by order",
         "description": "Come for your personal brewery faves.",
-        "photo_url": "images/bad_brewing_company4.webp"
+        "photo_url": "images/bad_brewing_company4_resized.webp"
     },
 
     {
@@ -28,7 +28,7 @@ export const places = [
         "address": "200 E Oak St, Mason, MI 48854",
         "cost": "Free",
         "description": "Discover the history of Mason and surrounding areas!",
-        "photo_url": "images/mason_historical_museum.webp"
+        "photo_url": "images/mason_historical_museum_resize.webp"
     },
 
     {
@@ -36,7 +36,7 @@ export const places = [
         "address": "315 South Jefferson St, Mason, MI 48854",
         "cost": "Free",
         "description": "Explore the Ingham County Courthouse on a personal tour.",
-        "photo_url": "images/ingham_county_courthouse.webp"
+        "photo_url": "images/ingham_county_courthouse_resized.webp"
     },
 
     {
@@ -44,7 +44,7 @@ export const places = [
         "address": "750 W Howell Rd, Mason, MI 48854",
         "cost": "Price varies by adventure",
         "description": "Enjoy a 27 hole facility with driving range, proshop, snack bar and restaurant.",
-        "photo_url": "images/eldorado_golf_course.webp"
+        "photo_url": "images/eldorado_golf_course_resize.webp"
     },
 
     {
@@ -52,7 +52,7 @@ export const places = [
         "address": "738 E Ash St, Mason, MI 48854",
         "cost": "Free",
         "description": "Play on our newly built park! Children of all abilities and ages are welcome.",
-        "photo_url": "images/rayner_park.webp"
+        "photo_url": "images/rayner_park_resize.webp"
     },
 
     {
@@ -60,7 +60,7 @@ export const places = [
         "address": "1895 Hull Rd, Mason, MI 48854",
         "cost": "Free",
         "description": "Be amazed at the hundreds of steam engines on display and learn how they work.",
-        "photo_url": "images/steam_engine_club.webp"
+        "photo_url": "images/steam_engine_club_resize.webp"
     }
 ]
 
