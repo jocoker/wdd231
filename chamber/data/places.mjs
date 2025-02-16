@@ -4,7 +4,7 @@ export const places = [
         "address": "108 W Maple St, Mason, MI 48854",
         "cost": "Free",
         "description": "Antiques, Collectibles and Crafts. Come explore our two story treasure trove.",
-        "photo_url": "images/maple_street_mall.webp"
+        "photo_url": "images/maple_street_mall_resize.webp"
     },
 
     {
