@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jordan Coker">
+        <meta name="author" content="Jordan Coker">
+        <link rel="stylesheet" href="styles/ourneighborskeeper-mobile.css">
+        <link rel="stylesheet" href="styles/ourneighborskeeper.css">       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script defer src="scripts/ourneighborskeeper.js"></script>
+        <script defer src="scripts/navigation.js"></script>
+        <title>Contact</title>
+    </head>
+<body>
+    <header>
+        <img src="images/onk-logo-cropped-Copy.jpg" alt="Logo" loading="lazy" height="70px" width="80px">
+        <h1>Our Neighbor's Keeper</h1>
+
+        <button id="hamburger"></button>
+    </header>
+        <nav id="nav">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        </nav>
+    
+    <main>
+        <div class="container">
+            <h1>Let's Connect</h1>
+            <p>Thanks for contacting Our Neighbors Keeper. We are committed to improving the lives of the recently homeless
+                and survivors of domestic abuse. If you want to help us or find out more about what we do, please send a message. 
+                We're looking forward to hearing from you.
+            </p>
+            <form  method="get" action="review.html">
+
+                <div class="form-group">
+                    <label for="your-first-name">Your First Name</label>
+                    <input type="text" id="your-first-name" name="your-first-name" pattern="[a-zA-Z ]+">
+                </div>
+
+                <div class="form-group">
+                    <label for="your-last-name">Your Last Name</label>
+                    <input type="text" id="your-last-name" name="your-last-name" pattern="[a-zA-Z ]+">
+                </div>
+
+                <div class="form-group">
+                    <label for="your-email">Your Email</label>
+                    <input type="text" id="your-email" name="your-email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                </div>
+
+                <div class="form-group">
+                    <label for="your-phone">Your Phone Number (with dashes)</label>
+                    <input type="text" id="your-phone" name="your-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>               
+    
+                <input type="submit" value="Post Review">
+            </form>
+        </div>
+        
+            
+    </main>
+    <footer>
+        <p id="year"></p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>

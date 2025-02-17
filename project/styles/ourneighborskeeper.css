@@ -1,0 +1,61 @@
+@media only screen and (min-width:769px){
+header,
+main,
+nav,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+   
+
+button#hamburger {
+    display:none;
+}
+
+nav {
+    grid-template-rows: 1fr;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+figure {
+    display: flex;
+    padding: 10px;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 12px rgba(23, 18, 33, 0.3);
+}
+
+.home
+.home2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.home p {
+    padding: 10px;
+    text-align: unset;
+    grid-column: 2/3;
+}
+
+.home2 p{
+    padding: 10px;
+    text-align: unset;
+    grid-column: 2/3;
+}
+     
+
+}
