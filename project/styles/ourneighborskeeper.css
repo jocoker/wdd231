@@ -39,23 +39,30 @@ figure img {
     box-shadow: 0 4px 12px rgba(23, 18, 33, 0.3);
 }
 
-.home
+.home,
 .home2 {
     display: grid;
-    grid-template-columns: auto auto;
+    gap: 10px;
+    grid-template-areas:
+    "pic1 text1"
+    "text2 pic2"
+    ;
 }
 
-.home p {
-    padding: 10px;
-    text-align: unset;
-    grid-column: 2/3;
+.home img{
+    grid-area: pic1;
+}
+
+.home p{
+    grid-area: text1;
+}
+
+.home2 img{
+    grid-area: pic2;
 }
 
 .home2 p{
-    padding: 10px;
-    text-align: unset;
-    grid-column: 2/3;
+    grid-area: text2;
 }
-     
 
 }
