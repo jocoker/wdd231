@@ -118,6 +118,12 @@ body {
     background-color: 	white;
 }
 
+#map {
+    height: 400px;  /* Adjust as needed */
+    width: 100%;
+}
+
+
 .container {
     max-width: 900px;
     font-size: larger;
