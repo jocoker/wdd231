@@ -9,3 +9,4 @@ document.querySelector('form').onsubmit = function (event) {
     // Redirect to thankyou.html automatically
     window.location.href = "thankyou.html";
 };
+document.querySelector('#today').value = new Date();

@@ -2,14 +2,15 @@
 let currentUrl = window.location.search;
 console.log(currentUrl);
 
-currentUrl = currentUrl.substring(1,currentUrl.length)
+currentUrl = currentUrl.substring(1);
 console.log(currentUrl);
 
 
-formData=currentUrl.split('&')
-console.log(formData)
+formData=currentUrl.split('&');
+console.log(formData);
 
 function show(cup) {
+    result = '';
     formData.forEach((element) => {
         console.log(element)
         if (element.startsWith(cup)) {
