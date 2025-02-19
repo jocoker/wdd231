@@ -13,3 +13,4 @@ document.addEventListener("DOMContentLoaded", function () {
     let today = new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
     document.getElementById("today").value = today;
 });
+

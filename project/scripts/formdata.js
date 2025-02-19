@@ -28,5 +28,12 @@ showInfo.innerHTML = `
 <p>Your Email:  <a href="mailto:${show('email')}">${show('email')}</a> </p>
 <p>Your Phone: ${show('phone')} </p>
 <p>Form was submitted on ${show('hiddendate')}</p>
-`
+`;
+
+let userName = show('first');
+    if (userName !== 'Not provided') {
+        let thankYouMessage = document.createElement('p');
+        thankYouMessage.textContent = `Thank you, ${userName}!`;
+        showInfo.appendChild(thankYouMessage);
+    }
 });
