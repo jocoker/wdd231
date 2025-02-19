@@ -1,4 +1,4 @@
-
+document.addEventListener("DOMContentLoaded", function () {
 let currentUrl = window.location.search;
 console.log(currentUrl);
 
@@ -10,16 +10,16 @@ formData=currentUrl.split('&');
 console.log(formData);
 
 function show(cup) {
-    result = '';
+    let result = '';
     formData.forEach((element) => {
         console.log(element)
-        if (element.startsWith(cup)) {
-            let rawValue=element.split('=')[1];
+        if (element.startsWith(cup + '=')) {
+            let rawValue=element.split('=')[1] || '';
             let decodedValue = decodeURIComponent(rawValue.replace(/\+/g, " "));
             result = decodedValue.replace("%40", "@");
         } 
     }); 
-    return(result)
+    return result || 'Not provided';
 }
 
 const showInfo = document.querySelector('#results')
@@ -29,3 +29,4 @@ showInfo.innerHTML = `
 <p>Your Phone: ${show('phone')} </p>
 <p>Form was submitted on ${show('hiddendate')}</p>
 `
+});
