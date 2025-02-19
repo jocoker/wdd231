@@ -6,6 +6,6 @@ document.querySelector('form').onsubmit = function (event) {
     reviewCount++;
     localStorage.setItem('reviewCount', reviewCount);
     alert(`Thank you for your interest. We will reach out to you soon. Total reviews: ${reviewCount}`);
-    // Redirect to review.html manually
-    window.location.href = "index.html";
+    // Redirect to thankyou.html automatically
+    window.location.href = "thankyou.html";
 };
