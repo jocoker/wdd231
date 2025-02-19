@@ -154,10 +154,11 @@ input[type=tel],
 input[type=email],
 select,
 textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;  
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;  
 }
 
 input[type="submit"] {

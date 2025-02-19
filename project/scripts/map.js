@@ -1,5 +1,12 @@
-42.2446870878357, -84.38110106092007
+document.addEventListener("DOMContentLoaded", function () {
+    var map = L.map('map').setView([42.2459, -84.4013], 13); // Example: Jackson, MI
 
-var map = L.map('map').setView([42.2446870878357, -84.38110106092007], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
 
-var marker = L.marker([51.5, -0.09]).addTo(map);
+    // Add a marker at the address location
+    L.marker([42.2459, -84.4013]).addTo(map)
+        .bindPopup("Our Neighbor's Keeper Thrift Store<br>1234 Main Street, Jackson, MI")
+        .openPopup();
+});
